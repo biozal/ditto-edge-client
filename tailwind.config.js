@@ -2,8 +2,6 @@
 /* eslint-disable @typescript-eslint/no-var-requires */
 const colors = require('tailwindcss/colors')
 const defaultTheme = require('tailwindcss/defaultTheme')
-
-const { darkTheme, lightTheme } = require('./src/theme/js')
 const { createThemes } = require('tw-colors')
 
 module.exports = {

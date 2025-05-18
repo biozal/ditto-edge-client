@@ -8,8 +8,8 @@ export const MainHeader = () => {
   const logoSrc = theme === 'dark' ? '/logo-dark.svg' : '/logo-light.svg'
 
   return (
-    <header className="w-full bg-background box-border">
-      <div className="flex items-center justify-between px-4 box-border w-full">
+    <header className="w-full border-b border-border bg-background box-border">
+      <div className="flex items-center justify-between px-8 py-4 box-border w-full">
                  
       <div className="flex items-center space-x-4 min-w-0">
         <img
